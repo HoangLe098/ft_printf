@@ -6,7 +6,7 @@
 /*   By: hoale <hoale@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 14:46:01 by hoale             #+#    #+#             */
-/*   Updated: 2024/11/22 14:54:51 by hoale            ###   ########.fr       */
+/*   Updated: 2025/03/25 11:12:54 by hoale            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ void	conversion(char **ptr, va_list *args, int *count)
 		conv_p(&args, &count);
 	else
 	{
-		write(1, "%", 1;)
+		write(1, "%", 1);
 		*ptr += 1;
 		*count += 1;
 		return ;
